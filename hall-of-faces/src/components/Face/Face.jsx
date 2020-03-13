@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./Face.module.scss";
-// import LeftEye from "../../images/LeftEye";
-// import RightEye from "../../images/RightEye";
+// import RightEye from "../../images/RightEye.png";
+// import LeftEye from "../../images/LeftEye.png";
+import Eyes from "../Eyes";
 
 const Face = props => {
   const { image } = props;
   return (
     <>
-      <img src={image} alt={image} />
-      {/* <LeftEye />
-      <RightEye /> */}
+      <img clas src={image} alt={image} />
+      <Eyes />
     </>
   );
 };

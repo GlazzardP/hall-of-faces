@@ -1,10 +1,11 @@
 import React from "react";
-import styles from "./LeftEye.module.scss";
+// import styles from "./LeftEye.module.scss";
 
-const LeftEye = () => {
+const LeftEye = props => {
+  const { image } = props;
   return (
     <>
-      <p>LeftEye works</p>
+      <img src={image} alt={image} />
     </>
   );
 };

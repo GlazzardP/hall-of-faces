@@ -1,10 +1,12 @@
 import React from "react";
+// import { styles } from "ansi-colors";
 import styles from "./RightEye.module.scss";
 
-const RightEye = () => {
+const RightEye = props => {
+  const { image } = props;
   return (
     <>
-      <p>RightEye works</p>
+      <img className={styles.rightEye} src={image} alt={image} />
     </>
   );
 };
