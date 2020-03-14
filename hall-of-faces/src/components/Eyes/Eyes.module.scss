@@ -1,29 +1,11 @@
 .sheaEyes {
-  top: 90%;
-  left: 49%;
-  border: solid blue 5px;
-  width: 350px;
-  position: absolute;
-}
-.rotate {
+  top: 29%;
+  left: 51.5%;
+  border: solid blue 1px;
   width: 100px;
-  height: 100px;
-  background-color: #0cb1c4;
-  animation-name: spin;
-  animation-duration: 5000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  /* transform: rotate(3deg); */
-  /* transform: rotate(0.3rad);/ */
-  /* transform: rotate(3grad); */
-  /* transform: rotate(.03turn);  */
-}
+  position: absolute;
 
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  img {
+    width: 25px;
   }
 }

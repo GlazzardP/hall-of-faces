@@ -4,7 +4,7 @@ import styles from "./Navbar.module.scss";
 const Navbar = () => {
   return (
     <>
-      <h1>Hall of Sheam</h1>
+      <h1 className={styles.h1}>Hall of Sheam</h1>
     </>
   );
 };
