@@ -5,11 +5,13 @@ import RightEye from "../RightEye/RightEye";
 import right from "../../images/right.png";
 import left from "../../images/left.png";
 
-const Eyes = () => {
+const Eyes = (props) => {
+
+  const {eyesLevel} = props;
   return (
     <div className={`${styles.sheaEyes}`}>
-      <LeftEye image={left} />
-      <RightEye image={right} />
+      <LeftEye image={left} eyesLevel={eyesLevel}/>
+      <RightEye image={right} eyesLevel={eyesLevel} />
     </div>
   );
 };

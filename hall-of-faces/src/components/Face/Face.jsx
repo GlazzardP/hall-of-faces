@@ -6,7 +6,7 @@ import { number } from "prop-types";
 const Face = props => {
   const { image } = props;
   const [eyesLevel, rotateEyes] = useState(true);
-  const spinEyes = eyesLevel ? "" : styles.rotate;
+  // const spinEyes = eyesLevel ? "" : styles.rotate;
 
   return (
     <div
@@ -14,8 +14,9 @@ const Face = props => {
       onClick={() => rotateEyes(!eyesLevel)}
     >
       <img clas src={image} alt={image} />
-      <div className={spinEyes}>
-        <Eyes />
+      <div >
+        <Eyes  eyesLevel={eyesLevel }
+        />
       </div>
     </div>
   );

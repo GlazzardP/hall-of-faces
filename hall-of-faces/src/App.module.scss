@@ -1,0 +1,15 @@
+
+* { 
+  font-family: 'Butcherman', cursive;
+}
+
+body { 
+  background-image: url("./images/hall0fshembackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faceList { 
+  display: flex;
+  flex-wrap: wrap;
+}
